@@ -2,21 +2,21 @@
 
 This repository contains my solution for the **Kaggle Playground: Predict the Introverts from the Extroverts** competition.
 
-## 🧠 Overview
-The goal is to classify a person as an Introvert or Extrovert based on behavioral features such as:
+## 🧠 概要
+行動データを基に個人の性格特性を内向型（introvert)/外向型(Extrovert)に分類することが目的です
+以下が使用した特徴量の一例です:
 - Time spent alone
 - Stage fear
 - Drained after socializing
 - Social event attendance
 - Friends circle size
 - Online post frequency
-- ...and more.
 
-## ⚙️ Methods
+## ⚙️ 手段
 - Model: LightGBM (5-Fold Stratified CV)
-- Evaluation Metric: ROC AUC
-- Key Feature Engineering: Encoded external feature `match_p`
-- Handling missing values and categorical encoding with Pandas.
+- 評価指標: ROC AUC
+- 主な特徴量エンジニアリング: Encoded external feature `match_p`
+- 欠損値処理およびカテゴリ変数の取り扱いはPandasを使用。
 
 ## 📈 Results
 - OOF AUC: **0.9725**
@@ -31,4 +31,4 @@ The goal is to classify a person as an Introvert or Extrovert based on behaviora
 - Pandas, LightGBM, NumPy, Scikit-learn
 
 ## 🏅 Notes
-This work is part of my ongoing machine learning portfolio.
+行動データのラベル付に誤りがあることが分かり、オリジナルデータを取り入れることが精度向上の鍵となりました。
