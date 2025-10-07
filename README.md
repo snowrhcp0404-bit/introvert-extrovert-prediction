@@ -1,4 +1,3 @@
-# introvert-extrovert-prediction
 # Introvert vs Extrovert Personality Classification
 
 This repository contains my solution for the **Kaggle Playground: Predict the Introverts from the Extroverts** competition.
@@ -21,10 +20,10 @@ The goal is to classify a person as an Introvert or Extrovert based on behaviora
 
 ## 📈 Results
 - OOF AUC: **0.9725**
-- Final Public Leaderboard: **Top 100 / 4300 participants**
+- Final Public Leaderboard: **Top 102 / 4300 participants**
 
 ## 📂 Files
-- `introvert_extrovert_model.ipynb` : Main notebook
+- `play last.ipynb` : Main notebook
 - `submission.csv` : Example submission file
 
 ## 🧰 Tools
