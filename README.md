@@ -20,7 +20,7 @@ The goal is to classify a person as an Introvert or Extrovert based on behaviora
 
 ## 📈 Results
 - OOF AUC: **0.9725**
-- Final Public Leaderboard: **Top 102 / 4300 participants**
+- Final Public Leaderboard: **Top 102 / 4447 participants**
 
 ## 📂 Files
 - `play last.ipynb` : Main notebook
