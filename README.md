@@ -1,8 +1,7 @@
 # Introvert vs Extrovert Personality Classification
 
-This repository contains my solution for the **Kaggle Playground: Predict the Introverts from the Extroverts** competition.
-
 ## 🧠 概要
+Kaggle Playground: Predict the Introverts from the Extrovertsに対する解法概要。
 行動データを基に個人の性格特性を内向型（introvert)/外向型(Extrovert)に分類することが目的です
 以下が使用した特徴量の一例です:
 - Time spent alone
